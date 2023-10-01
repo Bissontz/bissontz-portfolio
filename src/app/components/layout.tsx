@@ -1,7 +1,7 @@
 import "../globals.css"
 
 const Layout = ({ children } : { children: React.ReactNode}) => (
-  <div>
+  <div className="bg-cover bg-gradient-to-r from-black from-60% via-indigo-950 via-80% to-teal-950 h-screen">
     <header className='bg-gray-900 text-white py-4'>
       <nav className='container mx-auto'>
         <ul className='flex justify-between items-center'>
@@ -21,7 +21,7 @@ const Layout = ({ children } : { children: React.ReactNode}) => (
       </nav>
     </header>
 
-    <main className='container mx-auto mt-8'>
+    <main className='container m-auto'>
       {children}
     </main>
     
