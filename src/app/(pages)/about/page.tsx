@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 
 const AboutPage = () => (
     <Layout>
+        <h1>Under Construction</h1>
         <div className="hero mx-auto min-h-fit max-w-fit bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
                 <img src="profileimg.jpg" className="max-w-sm rounded-lg shadow-2xl"/>

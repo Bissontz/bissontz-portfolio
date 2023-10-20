@@ -18,6 +18,9 @@ const Layout = ({ children } : { children: React.ReactNode}) => (
             <a href='portfolio' className='text-white hover:text-gray-400'>Recent Projects</a>
           </li>
           <li>
+            <a href='mini_apps' className='text-white hover:text-gray-400'>Mini Apps</a>
+          </li>
+          <li>
             <a href='contact' className='text-white hover:text-gray-400'>Contact Me</a>
           </li>
         </ul>
