@@ -12,7 +12,10 @@ const Layout = ({ children } : { children: React.ReactNode}) => (
             <a href='about' className='text-white hover:text-gray-400'>About Me</a>
           </li>
           <li>
-            <a href='portfolio' className='text-white hover:text-gray-400'>Portfolio</a>
+            <a href='experience' className='text-white hover:text-gray-400'>Experience</a>
+          </li>
+          <li>
+            <a href='portfolio' className='text-white hover:text-gray-400'>Recent Projects</a>
           </li>
           <li>
             <a href='contact' className='text-white hover:text-gray-400'>Contact Me</a>
@@ -21,7 +24,7 @@ const Layout = ({ children } : { children: React.ReactNode}) => (
       </nav>
     </header>
 
-    <main className='container m-auto'>
+    <main className='container mx-auto mt-8'>
       {children}
     </main>
     

@@ -3,10 +3,14 @@ import Layout from "../../components/layout";
 
 const AboutPage = () => (
     <Layout>
-        <div className="">
-            <h1 className="text-2xl px-4">About Me</h1>
-            <p className="p-4"> I was born and raised in the Pittburgh area.</p>
-
+        <div className="hero mx-auto min-h-fit max-w-fit bg-base-200">
+            <div className="hero-content flex-col lg:flex-row">
+                <img src="profileimg.jpg" className="max-w-sm rounded-lg shadow-2xl"/>
+                <div>
+                    <h1 className="text-4xl font-bold">About Me!</h1>
+                    <p className="py-6"> I was born and raised in the Pittburgh area.</p>
+                </div>
+            </div>
         </div>
     </Layout>
     );
