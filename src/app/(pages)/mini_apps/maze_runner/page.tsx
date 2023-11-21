@@ -1,6 +1,5 @@
 import Layout from "@/app/components/layout";
 
-var cols, rows;
 
 const MazeRunnerPage = () => (
     <Layout>

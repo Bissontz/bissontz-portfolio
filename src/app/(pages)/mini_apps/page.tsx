@@ -10,7 +10,7 @@ const MiniAppsPage = () => (
         <div className="divider"/>
         <div className="grid gap-4 grid-cols-2">
             <button className="btn">Color Guesser Game</button>
-            <button className="btn">Maze Runner</button>
+            <button className="btn">Maze Runner <link> href="maze_runner"</link></button>
             <button className="btn">Mini App 3</button>
             <button className="btn">Mini App 4</button>
             <button className="btn">Mini App 5</button>
