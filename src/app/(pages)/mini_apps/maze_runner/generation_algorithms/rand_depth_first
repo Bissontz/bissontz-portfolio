@@ -1,0 +1,31 @@
+import { error } from "console"
+import { Maze, Cell } from "../maze"
+
+var maze: Maze
+
+export function depthFirstMaze(grid, startCell: Cell) {
+    var currentCell = startCell;
+
+    while(currentCell.hasUnvisitedNeighbors) {
+        if(!currentCell.isNorthVisited) {
+            currentCell.northWall = false
+            currentCell = maze.getCellNorth(currentCell);
+            currentCell.southWall = false
+        }else if(!currentCell.isEastVisited) {
+            currentCell.eastWall = false
+            currentCell = maze.getCellEast(currentCell);
+            currentCell.westWall = false
+        }else if(!currentCell.isSouthVisited) {
+            currentCell.southWall = false
+            currentCell = maze.getCellSouth(currentCell);
+            currentCell.northWall = false
+        }else if(!currentCell.isWestVisited) {
+            currentCell.westWall = false
+            currentCell = maze.getCellWest(currentCell);
+            currentCell.eastWall = false
+        }
+        depthFirstMaze(grid, currentCell)
+    }
+    
+}
+

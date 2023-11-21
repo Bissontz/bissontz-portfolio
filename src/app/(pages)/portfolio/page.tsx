@@ -12,8 +12,8 @@ const PortfolioPage = () => (
         <h1 className="text-2xl p-4 underline">Personnal Projects</h1>
             <h2 className="px-10">Project 1</h2>
             <h2 className="px-10">Project 2</h2>
-            <h2 className="px-10">This Page!</h2>
-                <p className="px-12">This page started as my portfolio.</p>
+            <h2 className="px-10">This Website!</h2>
+                <p className="px-12">This website started as my portfolio but has grown to include much more than just that.</p>
     </Layout>
 );
 

@@ -1,0 +1,3 @@
+export function primsMaze(grid, startCell, finishCell) {
+    
+}
